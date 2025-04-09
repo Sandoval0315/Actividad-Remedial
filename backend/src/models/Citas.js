@@ -1,6 +1,6 @@
 import {Schemas, model} from "mongoose"
 
-const CitasSchemas = new Schemas(
+const CitasSchemas = new Schema(
     {
         fecha: {
             type: Date, 
